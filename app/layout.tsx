@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 // const inter = Inter({ subsets: ["latin"] });
 const railway = Raleway({
@@ -25,7 +27,9 @@ export default function RootLayout({
           <div className="layer"></div>
           <div className="layer"></div>
         </div>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
