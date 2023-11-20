@@ -3,6 +3,8 @@ import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Loader from "@/components/loader/Loader";
+import { cn } from "@/lib/utils";
 
 // const inter = Inter({ subsets: ["latin"] });
 const railway = Raleway({
@@ -22,11 +24,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={railway.className}>
-        <div className="open1">
-          <div className="layer"></div>
-          <div className="layer"></div>
-        </div>
+      <body className={cn(railway)}>
+        <Loader />
         <Header />
         {children}
         <Footer />
