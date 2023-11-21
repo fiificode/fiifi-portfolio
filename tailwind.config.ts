@@ -50,7 +50,7 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        basic: "#EEAD1A;",
+        basic: "#EEAD1A",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -70,6 +70,10 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        hero_shape: "url(/images/shape-1.svg)",
+        hero_shape2: "url(/images/shape-2-light.svg)",
       },
     },
   },

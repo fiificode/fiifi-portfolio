@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 z-30 transition-all",
+        "sticky top-0 z-[9999] transition-all",
         header ? "py-4 bg-white shadow-lg" : "py-6"
       )}
     >

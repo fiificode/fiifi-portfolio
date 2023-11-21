@@ -1,9 +1,16 @@
 import Link from "next/link";
 import React from "react";
-import { RiArrowDownSLine } from "react-icons/ri";
+import {
+  RiArrowDownSLine,
+  RiBriefcase4Fill,
+  RiTeamFill,
+  RiTodoFill,
+} from "react-icons/ri";
 import { Button } from "../ui/button";
 import { Download, Send } from "lucide-react";
 import Socials from "../socials/Socials";
+import DevImg from "../devImg/DevImg";
+import Badge from "../badge/Badge";
 
 const Hero = () => {
   return (
@@ -53,7 +60,36 @@ const Hero = () => {
             />
           </div>
           {/**Image */}
-          <div className="hidden xl:flex relative">Image</div>
+          <div className="hidden xl:flex relative">
+            {/**badge-1 */}
+            <Badge
+              containerStyles="absolute top-[24%] -left-[5rem]"
+              endCountNum={3}
+              badgeText="Years of experience"
+              icon={<RiBriefcase4Fill />}
+            />
+            {/**badge-2 */}
+            <Badge
+              containerStyles="absolute top-[80%] -left-[1rem]"
+              endCountNum={9}
+              endCountText="k"
+              badgeText="Happy clients"
+              icon={<RiTodoFill />}
+            />
+            {/**badge-3 */}
+            <Badge
+              containerStyles="absolute top-[55%] -right-8"
+              endCountNum={6}
+              endCountText="k"
+              badgeText="Finished projects"
+              icon={<RiTeamFill />}
+            />
+            <div className="bg-hero_shape2 w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+            <DevImg
+              containerStyle="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom overflow-hidden"
+              imgSrc="/images/my-pic.png"
+            />
+          </div>
           {/**Icons */}
         </div>
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
