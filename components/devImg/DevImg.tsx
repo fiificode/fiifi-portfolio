@@ -16,7 +16,7 @@ const DevImg = ({ containerStyle, imgSrc }: IDevImg) => {
         priority
         width={350}
         height={150}
-        className="object-cover absolute -top-3 right-[110px] overflow-hidden"
+        className="object-cover absolute -top-3 right-[10px] lg:right-[110px] overflow-hidden"
       />
     </div>
   );

@@ -6,7 +6,7 @@ import {
   RiTeamFill,
   RiTodoFill,
 } from "react-icons/ri";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 import { Download, Send } from "lucide-react";
 import Socials from "../socials/Socials";
 import DevImg from "../devImg/DevImg";
@@ -45,13 +45,15 @@ const Hero = () => {
                   <Send size={18} />{" "}
                 </Button>
               </Link>
-              <Button
-                variant={"outline"}
-                className="gap-x-2 flex items-center justify-center"
-              >
-                Download Resume
-                <Download className="text-basic" size={18} />{" "}
-              </Button>
+              <a href="./Franklin-SoftwareDev.pdf" download>
+                <Button
+                  variant={"outline"}
+                  className="gap-x-2 flex items-center justify-center"
+                >
+                  Download Resume
+                  <Download className="text-basic" size={18} />{" "}
+                </Button>
+              </a>
             </div>
             {/**Socials */}
             <Socials
@@ -71,16 +73,16 @@ const Hero = () => {
             {/**badge-2 */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
-              endCountNum={9}
-              endCountText="k"
+              endCountNum={15}
+              endCountText="+"
               badgeText="Happy clients"
               icon={<RiTodoFill />}
             />
             {/**badge-3 */}
             <Badge
               containerStyles="absolute top-[55%] -right-8"
-              endCountNum={6}
-              endCountText="k"
+              endCountNum={36}
+              endCountText="+"
               badgeText="Finished projects"
               icon={<RiTeamFill />}
             />
@@ -92,7 +94,7 @@ const Hero = () => {
           </div>
           {/**Icons */}
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce delay-300">
           <RiArrowDownSLine className="text-3xl text-basic" />
         </div>
       </div>

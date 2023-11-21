@@ -15,6 +15,12 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    screen: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1400px",
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -74,6 +80,7 @@ module.exports = {
       backgroundImage: {
         hero_shape: "url(/images/shape-1.svg)",
         hero_shape2: "url(/images/shape-2-light.svg)",
+        dots: "url(/images/dots-light.svg)",
       },
     },
   },
