@@ -13,7 +13,7 @@ const Footer = () => {
           />
           {/**copyright */}
           <div className="text-center text-muted-foreground text-sm">
-            Copyright &copy; Franklin Mensah.
+            Copyright &copy; fiificode
             <br /> All rights reserved - 2023
           </div>
         </div>

@@ -1,6 +1,7 @@
 export const projectData = [
   {
     image: "/images/famsec1.png",
+    tags: "Nextjs",
     category: {
       one: "Nextjs",
       three: "TailwindCss",
@@ -14,6 +15,7 @@ export const projectData = [
   },
   {
     image: "/images/audi-new.png",
+    tags: "Html & Css",
     category: {
       one: "Html",
       two: "Css",
@@ -28,6 +30,7 @@ export const projectData = [
 
   {
     image: "/images/3.png",
+    tags: "Reactjs",
     category: {
       one: "Nextjs",
       two: "React",
@@ -40,6 +43,7 @@ export const projectData = [
   },
   {
     image: "/images/4.png",
+    tags: "Reactjs",
     category: {
       one: "Nextjs",
       two: "React",
@@ -52,6 +56,7 @@ export const projectData = [
   },
   {
     image: "/images/1.png",
+    tags: "Html & Css",
     category: {
       one: "Nextjs",
       two: "React",
@@ -64,6 +69,7 @@ export const projectData = [
   },
   {
     image: "/images/2.png",
+    tags: "Nextjs",
     category: {
       one: "Nextjs",
       two: "React",
@@ -77,6 +83,7 @@ export const projectData = [
   },
   {
     image: "/images/3.png",
+    tags: "Html & Css",
     category: {
       one: "Nextjs",
       two: "React",
@@ -89,6 +96,7 @@ export const projectData = [
   },
   {
     image: "/images/4.png",
+    tags: "React-native",
     category: {
       one: "Nextjs",
       two: "React",
