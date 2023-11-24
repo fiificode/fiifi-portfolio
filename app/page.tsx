@@ -1,4 +1,5 @@
 import About from "@/components/about/About";
+import Cta from "@/components/cta/Cta";
 import Hero from "@/components/hero/Hero";
 import Projects from "@/components/projects/Projects";
 import Reviews from "@/components/reviews/Reviews";
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Projects />
       <Reviews />
+      <Cta />
     </main>
   );
 }
