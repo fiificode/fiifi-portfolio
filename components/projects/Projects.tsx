@@ -18,9 +18,10 @@ const Projects = () => {
         {/**Text */}
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            voluptatem obcaecati aspernatur?
+          <p className=" subtitle text-muted-foreground mb-8">
+            This is a creative portfolio that your work has been waiting
+            for.Beautiful, stunning portfolio styles and a whole lot more
+            inside.
           </p>
           <Link href={"/projects"}>
             <Button>All projects</Button>
