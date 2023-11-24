@@ -88,6 +88,14 @@
 .badge {
   @apply z-10 w-[200px] h-[68px] bg-white shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
 }
+
+/* swiper bullets styles */
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-basic;
+}
+
 /** Loading Animation */
 .open1 {
   position: fixed;
@@ -124,4 +132,51 @@
   100% {
     transform: scaleY(0);
   }
+}
+/** Browser */
+.project {
+  width: 90%;
+  height: 60vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+.project-browser {
+  height: 30px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+.project-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin: 5px;
+  /* background-color: white; */
+}
+.project-circle:nth-child(1) {
+  background-color: red;
+}
+.project-circle:nth-child(2) {
+  background-color: yellow;
+}
+.project-circle:nth-child(3) {
+  background-color: green;
+}
+.project-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+.project:hover .project-img {
+  transform: translateY(-100%);
+}
+.project-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+.project:hover .project-img {
+  transform: translateY(-100%);
 }

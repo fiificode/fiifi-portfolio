@@ -17,22 +17,22 @@ import {
 
 const servicesData = [
   {
-    icon: <PaletteIcon size={72} strokeWidth={0.8} />,
+    icon: <PaletteIcon size={52} strokeWidth={0.8} />,
     title: "Web Design",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing",
+      "I create websites that are both visually appealing and user-friendly. I ensuring that websites are easy to use, navigate, and find, and that they provide a positive user experience.",
   },
   {
-    icon: <MonitorSmartphoneIcon size={72} strokeWidth={0.8} />,
+    icon: <MonitorSmartphoneIcon size={52} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing",
+      "I creates websites that are both functional and user-friendly. I ensuring that websites are secure, reliable, and performant, and that they meet the specific needs of users.",
   },
   {
-    icon: <TabletSmartphoneIcon size={72} strokeWidth={0.8} />,
+    icon: <TabletSmartphoneIcon size={52} strokeWidth={0.8} />,
     title: "Mobile App Development",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing",
+      "I turn innovative ideas and business needs into functional and engaging mobile applications. I combine my expertise in design, development, and mobile platforms to create apps that enhance user experiences and drive business success.",
   },
 ];
 
@@ -53,13 +53,13 @@ const Services = () => {
                 key={idx}
               >
                 <CardHeader className="text-basic absolute -top-[60px]">
-                  <div className="w-[140px] h-[80px] rounded-lg bg-primary/90 flex justify-center items-center">
+                  <div className="w-[120px] h-[80px] rounded-lg bg-primary/90 flex justify-center items-center">
                     {item.icon}
                   </div>
                 </CardHeader>
                 <CardContent className="text-center">
                   <CardTitle className="mb-4">{item.title}</CardTitle>
-                  <CardDescription className="text-lg">
+                  <CardDescription className="text-sm">
                     {item.description}
                   </CardDescription>
                 </CardContent>
