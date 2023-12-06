@@ -45,7 +45,7 @@ const Reviews = () => {
                       </div>
                     </div>
                   </CardHeader>
-                  <CardDescription className="text-lg text-muted-foreground">
+                  <CardDescription className="text-sm text-muted-foreground">
                     {person.review}
                   </CardDescription>
                 </Card>
