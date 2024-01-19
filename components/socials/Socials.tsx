@@ -14,15 +14,15 @@ interface ISocials {
 
 const icons = [
   {
-    path: "/https://www.linkedin.com/in/franklin-mensah-774191225/",
+    path: "https://www.linkedin.com/in/franklin-mensah-774191225/",
     name: <RiLinkedinBoxFill />,
   },
   {
-    path: "/https://github.com/fiificode",
+    path: "https://github.com/fiificode",
     name: <RiGithubFill />,
   },
   {
-    path: "/https://twitter.com/blessedfm",
+    path: "https://twitter.com/blessedfm",
     name: <RiTwitterXFill />,
   },
 ];
